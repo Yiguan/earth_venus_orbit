@@ -48,7 +48,7 @@ int main(int argc, char const *argv[])
 		}
 		else
 		{
-			printf("Cant't open file: result.txt\n");
+			printf("Cant't open file: %s\n", outname);
 		}
 	}
 	return 0;
