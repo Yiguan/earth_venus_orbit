@@ -2,8 +2,8 @@
 library(berryFunctions)
 args = commandArgs(TRUE)
 
-#aa <- read.table(args[1], header = F, sep = "\t")
-aa <- read.table("gap10.txt",header = F, sep = "\t")
+aa <- read.table(args[1], header = F, sep = "\t")
+#aa <- read.table("gap10.txt",header = F, sep = "\t")
 
 plot(NA, xlim = c(-1.5,1.5), ylim = c(-1.5,1.5), bty = "n", axes = F, ylab = "", xlab = "")
 circle(0,0,1)
